@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zodiac App</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+	 
+				<form>
+				    <div class="form-group">
+					     <h1>ZODIAC SIGNS MEANINGS AND CHARACTERISTICS</h1>
+						 <p>By clicking on your zodiac sign you can see your complete zodiac profile, the element to which you belong and the planets that rule your zodiac sign!</p>
+				    </div>
+
+				    <div class="form-group">
+					      <input placeholder="Enter your horoscope sign" id="horoscope">
+					</div>
+					<div class="form-group">
+					    <button type="button" onclick="getInfo()">Find Sign</button>
+				</form>
+                <div>
+					<h1 id="sign"></h1>
+					<img id="icon" src="">
+					<p id="yourHoroscope"></p>
+					<p id ="yourProfile"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
